@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Abedalhadi | Front-End Developer</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="bg-blur"></div>
+
+    <nav class="navbar">
+      <div class="logo">AN.</div>
+      <button id="theme-toggle" aria-label="Toggle Theme">
+        <div class="sun-icon">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+        </div>
+        <div class="moon-icon">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </div>
+      </button>
+    </nav>
+
+    <header class="hero">
+      <h1 class="fade">Abedalhadi Nakkash</h1>
+      <h2 class="fade delay-1">Front-End Developer</h2>
+      <div class="typing-container">
+        <span class="typing"></span><span class="cursor">|</span>
+      </div>
+      <div class="hero-buttons fade delay-3">
+        <a href="#projects" class="btn">Explore Work</a>
+        <a href="Abdalhadi Nakkash CV.pdf" class="btn outline" download
+          >Download CV</a
+        >
+      </div>
+    </header>
+
+    <main>
+      <section class="about hidden">
+        <div class="section-title">
+          <span>01.</span>
+          <h3>About Me</h3>
+        </div>
+        <p>
+          I hold a Bachelor's degree in Computer Science from the Lebanese
+          International University. I specialize in building
+          <strong>clean, responsive, and user-centric</strong> digital
+          experiences.
+        </p>
+      </section>
+
+      <section class="skills hidden">
+        <div class="section-title">
+          <span>02.</span>
+          <h3>Technical Stack</h3>
+        </div>
+        <div class="skills-grid">
+          <div class="skill-card">HTML5</div>
+          <div class="skill-card">CSS3 / Sass</div>
+          <div class="skill-card">JavaScript (ES6+)</div>
+          <div class="skill-card">React.js</div>
+          <div class="skill-card">Git & GitHub</div>
+        </div>
+      </section>
+
+      <section class="projects hidden" id="projects">
+        <div class="section-title">
+          <span>03.</span>
+          <h3>Projects</h3>
+        </div>
+        <div class="projects-container">
+          <div class="project-card">
+            <div class="project-content">
+              <h4>Refit - Portfolio</h4>
+              <p>Architecture Service Website</p>
+              <div class="tags">
+                <span>HTML</span><span>CSS</span><span>JS</span>
+              </div>
+              <div class="project-links">
+                <a href="https://refit-1.netlify.app/">Live</a> |
+                <a href="https://github.com/Abdnakkash/Refit-HomeDesign"
+                  >Source</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-content">
+              <h4>Omnifood</h4>
+              <p>AI-Powered Ecommerce</p>
+              <div class="tags">
+                <span>HTML</span><span>CSS</span><span>JS</span>
+              </div>
+              <div class="project-links">
+                <a href="https://omnifood-abdnakkash.netlify.app/">Live</a> |
+                <a href="http://github.com/Abdnakkash/Omnifood---Ecommerce"
+                  >Source</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact hidden">
+        <div class="section-title">
+          <span>04.</span>
+          <h3>Connect</h3>
+        </div>
+        <div class="contact-card">
+          <p>Click below to start a conversation:</p>
+          <a
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=abdalhadinakkash85@gmail.com"
+            target="_blank"
+            class="email-link"
+            >abdalhadinakkash85@gmail.com</a
+          >
+          <div class="social-links">
+            <a
+              href="https://github.com/abdnakkash"
+              target="_blank"
+              class="social-btn github"
+              >GitHub</a
+            >
+            <a
+              href="https://www.linkedin.com/in/abdalhade-nakkash/"
+              target="_blank"
+              class="social-btn linkedin"
+              >LinkedIn</a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>© 2026 Abedalhadi Nakkash • Crafted with Code</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
